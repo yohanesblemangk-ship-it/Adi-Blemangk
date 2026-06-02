@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ady Blemangk Design | Jasa Desain Canva Profesional</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#f8fafc;
+color:#333;
+}
+
+header{
+background:linear-gradient(135deg,#0d6efd,#6f42c1);
+color:white;
+padding:120px 20px;
+text-align:center;
+}
+
+header h1{
+font-size:3rem;
+margin-bottom:15px;
+}
+
+header p{
+font-size:1.2rem;
+margin-bottom:20px;
+}
+
+.btn{
+display:inline-block;
+padding:15px 30px;
+border-radius:50px;
+text-decoration:none;
+font-weight:600;
+transition:.3s;
+}
+
+.btn-wa{
+background:#25D366;
+color:white;
+}
+
+.btn-wa:hover{
+transform:translateY(-3px);
+}
+
+.container{
+max-width:1200px;
+margin:auto;
+padding:80px 20px;
+}
+
+.section-title{
+text-align:center;
+margin-bottom:50px;
+}
+
+.section-title h2{
+font-size:2rem;
+color:#0d6efd;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:15px;
+box-shadow:0 10px 30px rgba(0,0,0,0.08);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card h3{
+margin-bottom:10px;
+color:#0d6efd;
+}
+
+.about{
+text-align:center;
+font-size:1.1rem;
+line-height:1.8;
+}
+
+.portfolio{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:20px;
+}
+
+.portfolio img{
+width:100%;
+height:250px;
+object-fit:cover;
+border-radius:15px;
+cursor:pointer;
+transition:.3s;
+}
+
+.portfolio img:hover{
+transform:scale(1.05);
+}
+
+.testimonial{
+background:white;
+padding:25px;
+border-radius:15px;
+box-shadow:0 5px 20px rgba(0,0,0,0.08);
+}
+
+.testimonial strong{
+display:block;
+margin-top:10px;
+color:#0d6efd;
+}
+
+.pricing{
+text-align:center;
+background:linear-gradient(135deg,#0d6efd,#6f42c1);
+color:white;
+padding:60px 20px;
+border-radius:20px;
+}
+
+.price{
+font-size:3rem;
+font-weight:bold;
+margin:15px 0;
+}
+
+footer{
+background:#111827;
+color:white;
+text-align:center;
+padding:30px;
+margin-top:60px;
+}
+
+.floating-wa{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px 20px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+box-shadow:0 5px 20px rgba(0,0,0,0.2);
+z-index:999;
+}
+
+.modal{
+display:none;
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,.8);
+justify-content:center;
+align-items:center;
+z-index:1000;
+}
+
+.modal img{
+max-width:90%;
+max-height:90%;
+border-radius:10px;
+}
+
+@media(max-width:768px){
+header h1{
+font-size:2rem;
+}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Ady Blemangk Design</h1>
+<p>Jasa Desain Canva Profesional Untuk UMKM, Toko Online, dan Konten Media Sosial</p>
+
+<a class="btn btn-wa"
+href="https://wa.me/6281345081354?text=Halo%20Ady%20Blemangk,%20saya%20ingin%20memesan%20jasa%20desain."
+target="_blank">
+Pesan Sekarang
+</a>
+</header>
+
+<section class="container">
+<div class="section-title">
+<h2>Tentang Kami</h2>
+</div>
+
+<p class="about">
+Kami membantu bisnis, UMKM, dan personal branding tampil lebih profesional melalui desain Canva yang menarik, modern, dan siap digunakan untuk promosi digital.
+</p>
+</section>
+
+<section class="container">
+<div class="section-title">
+<h2>Layanan Kami</h2>
+</div>
+
+<div class="grid">
+
+<div class="card">
+<h3>Feed Instagram</h3>
+<p>Desain konten Instagram profesional dan menarik.</p>
+</div>
+
+<div class="card">
+<h3>Poster Promosi</h3>
+<p>Poster promosi produk, jasa, dan event.</p>
+</div>
+
+<div class="card">
+<h3>Banner Facebook</h3>
+<p>Banner bisnis untuk Facebook dan marketplace.</p>
+</div>
+
+<div class="card">
+<h3>TikTok Shop</h3>
+<p>Konten visual untuk meningkatkan penjualan.</p>
+</div>
+
+</div>
+</section>
+
+<section class="container">
+<div class="section-title">
+<h2>Portofolio</h2>
+</div>
+
+<div class="portfolio">
+
+<img src="images/desain1.jpg" onclick="showImage(this.src)">
+<img src="images/desain2.jpg" onclick="showImage(this.src)">
+<img src="images/desain3.jpg" onclick="showImage(this.src)">
+<img src="images/desain4.jpg" onclick="showImage(this.src)">
+<img src="images/desain5.jpg" onclick="showImage(this.src)">
+<img src="images/desain6.jpg" onclick="showImage(this.src)">
+
+</div>
+</section>
+
+<section class="container">
+<div class="pricing">
+<h2>Harga Mulai</h2>
+<div class="price">Rp25.000</div>
+<p>Per Desain Canva Profesional</p>
+
+<br>
+
+<a class="btn btn-wa"
+href="https://wa.me/6281345081354?text=Halo%20Ady%20Blemangk,%20saya%20ingin%20memesan%20jasa%20desain."
+target="_blank">
+Order Sekarang
+</a>
+</div>
+</section>
+
+<section class="container">
+<div class="section-title">
+<h2>Testimoni</h2>
+</div>
+
+<div class="grid">
+
+<div class="testimonial">
+"Desain sangat bagus dan cepat selesai."
+<strong>⭐⭐⭐⭐⭐</strong>
+</div>
+
+<div class="testimonial">
+"Hasil desain profesional dan sesuai keinginan."
+<strong>⭐⭐⭐⭐⭐</strong>
+</div>
+
+<div class="testimonial">
+"Harga terjangkau dan pelayanan ramah."
+<strong>⭐⭐⭐⭐⭐</strong>
+</div>
+
+</div>
+</section>
+
+<footer>
+<h3>Ady Blemangk Design</h3>
+<p>WhatsApp: 0813-4508-1354</p>
+<p>© 2026 All Rights Reserved</p>
+</footer>
+
+<a class="floating-wa"
+href="https://wa.me/6281345081354?text=Halo%20Ady%20Blemangk,%20saya%20ingin%20memesan%20jasa%20desain."
+target="_blank">
+WhatsApp
+</a>
+
+<div class="modal" id="modal" onclick="closeModal()">
+<img id="modalImg">
+</div>
+
+<script>
+function showImage(src){
+document.getElementById('modal').style.display='flex';
+document.getElementById('modalImg').src=src;
+}
+
+function closeModal(){
+document.getElementById('modal').style.display='none';
+}
+</script>
+
+</body>
+</html>
